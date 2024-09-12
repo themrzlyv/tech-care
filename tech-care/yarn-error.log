@@ -1,0 +1,51 @@
+Arguments: 
+  /Users/themirzaliyev/.nvm/versions/node/v18.17.1/bin/node /usr/local/bin/yarn add -D classnames
+
+PATH: 
+  /Users/themirzaliyev/.nvm/versions/node/v18.17.1/bin:/Users/themirzaliyev/.console-ninja/.bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Users/themirzaliyev/Library/Android/sdk/platform-tools:/Users/themirzaliyev/.nvm/versions/node/v18.17.1/bin:/Users/themirzaliyev/.console-ninja/.bin:/opt/homebrew/bin:/opt/homebrew/sbin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.17.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: ENOENT: no such file or directory, open '/Users/themirzaliyev/Library/Caches/Yarn/v6/npm-@next-swc-darwin-arm64-14.2.9-6d6880b580a0cb8d71be929d5399f0904d867e0a-integrity/node_modules/@next/swc-darwin-arm64/.yarn-metadata.json'
+
+npm manifest: 
+  {
+    "name": "tech-care",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "react": "^18",
+      "react-dom": "^18",
+      "next": "14.2.9"
+    },
+    "devDependencies": {
+      "typescript": "^5",
+      "@types/node": "^20",
+      "@types/react": "^18",
+      "@types/react-dom": "^18",
+      "postcss": "^8",
+      "tailwindcss": "^3.4.1",
+      "eslint": "^8",
+      "eslint-config-next": "14.2.9"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
